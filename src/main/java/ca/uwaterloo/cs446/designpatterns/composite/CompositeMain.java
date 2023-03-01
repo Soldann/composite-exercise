@@ -11,7 +11,9 @@ public class CompositeMain {
 		File opt = new File("Oriental Pearl Tower");
 		File bund = new File("The Bund");
 		File kiyomizu = new File("Kiyomizu Dera");
-		
+		HiddenFile hidden = new HiddenFile();
+
+		shanghai.add(hidden);
 		shanghai.add(opt);
 		shanghai.add(bund);
 		kyoto.add(kiyomizu);
